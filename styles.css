@@ -12,14 +12,31 @@ body {
 }
 
 #development { 
-	padding-top: 19px;
-	padding-bottom: 50px;
 }
 
 
 #keep-center {
-	margin-left: 27%;
-	margin-right: 27%;
+  height: 100%;
+  width: 195px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#keep-center a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+#keep-center a:hover {
+  color: #f1f1f1;
 }
 
 #main-header {
@@ -39,10 +56,6 @@ body {
 }
 
 .home-main-content {
-	padding-top: 20px;
-	margin-left: 33%;
-	margin-right: 33%;
-	text-align: center;
 }
 
 p {
@@ -80,21 +93,15 @@ h4 {
   text-transform: uppercase;	
 }
 
- /* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+.main {
+  margin-left: 195px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  text-align: center;
+  margin-right: 25%;
 }
 
-/* The navigation menu links */
-.sidenav a {
+#keep-center a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -102,19 +109,14 @@ h4 {
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-} 
+  #keep-center {
+	  padding-top: 15px;
+		
+	  }
+	  
+  #keep-center a {
+	  font-size: 10px;
+		
+	  }
+}
