@@ -1,0 +1,122 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+body {
+	background-color: #2d2a26;
+}
+
+#background-sione {
+	background-color: #40454A ;
+}
+
+#development { 
+}
+
+
+#keep-center {
+  height: 100%;
+  width: 195px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#keep-center a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+#keep-center a:hover {
+  color: #f1f1f1;
+}
+
+#main-header {
+	text-align: center;
+	background: #2d2a26;
+	margin: 0px;
+	padding: 10px;
+	color: #2d2a26;
+}
+
+#lesser-header {
+	text-align: center;
+	margin: 0px;
+	padding: 30px;
+	color: #ffffff
+
+}
+
+.home-main-content {
+}
+
+p {
+	font-family: "Open Sans",sans-serif;
+	font-size: 1.125rem;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	color: #ffffff;
+}
+
+h1 {
+  color: #83b6cc;
+}
+
+h2 {
+  color: #83b6cc;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 1.875em;	
+}
+
+h4 {
+  color: #83b6cc;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Open Sans",sans-serif;
+  text-transform: uppercase;	
+}
+
+.main {
+  margin-left: 195px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  text-align: center;
+  margin-right: 25%;
+}
+
+#keep-center a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+@media screen and (max-height: 450px) {
+  #keep-center {
+	  padding-top: 15px;
+		
+	  }
+	  
+  #keep-center a {
+	  font-size: 10px;
+		
+	  }
+}
