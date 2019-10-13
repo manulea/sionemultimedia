@@ -2,102 +2,90 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="styles.css">
-	
 	    <!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
 		 <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 		<!-- Popper JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 	</head>
 	<body>
-	<!-- start nav -->
-	<div id="background-sione">
-	<div id="keep-center">
-		<nav class="navbar">
-			<div class="navbar-collapse">
-				<ul class="navbar-nav w-100">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Labs
-						</a>
-						<ul class="dropdown-menu">
-							<li class="nav-item">
-								<a href="week-1.html">Photoshop Lab</a>
-							</li>
-							<li class="nav-item">
-								<a href="week-2.html">Illustrator Drawing</a>
-							</li>
-							<li class="nav-item">
-								<a href="week-3.html">Image Manipulation</a>
-							</li>
-							<li class="nav-item">
-								<a href="week-4.html">Copywork</a>
-							</li>
-							<li class="nav-item">
-								<a href="week-5.html">Presentation</a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Projects</a>
-							<ul class="dropdown-menu">
-								<li class="nav-item">
-									<a href="uidesign.html">Ui Design</a>
-								</li>
-								<li class="nav-item">
-									<a href="video.html">Video</a>
-								</li>
-								<li class="nav-item">
-									<a href="animation.html">Animation</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="assignment.html">Assignment</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="assessment.html">Assessment</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	<!-- end nav -->
-		<main>
-			<!-- Page content -->
-			<div class="main-content">
-				<img src="labs/multimediapicture333.jpg" class="img-fluid" alt="responsive image"/>
-				<h1 id="lesser-header">Sione Manulea's Multimedia portfolio!</h1>
-				<p>Welcome to my webpage! I created this website using bootstrap and css</p>
-				<p>The navbar is the typical navbar item list from the bootpage website which you can view <a href="https://getbootstrap.com/docs/4.3/components/navbar/">here</a></p>
-				<p>And the rest of the website, I coded myself with the help of Google and previous website making experience</p>
-				<p>I dedicated myself to using bootstrap because it seemed to be one of the better methods where complete customizbility was within my control meaning, I can shape my website in a way where I can decide what things do what, and where things go where</p>
-				<p>Jekyll came to mind when making a website, because of it's ease of user creation. But with this website, it wasn't needed to have such functionality, as I decided this portfolio would be a place to showcase my multimedia work for all the world to see, meaning I would not need to restrict or filter users/viewers. This is why I preferred to code purely in bootstrap / html / css!</p>
-				<p>I decided having a navigation menu at the top would be more fulfilling because it seemed like a more productive way for the user to navigate around the website efficiently</p>
-				<p>On this website, there are five main categories which are the basis for my Multimedia work</p>
-				<p>These categories are, lab designs, project designs, assignments, and assessments</p>
-				<p>Here's a video which I had made to practice for my video assignment</p>
-				<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/87BuMVM1Fos' frameborder='0' allowfullscreen></iframe></div>				
-				<p>I made this video using the 'Resolve' software that we had been introduced in class</p>
+	
+<nav class="navbar navbar-light navbar-expand-md bg-light justify-content-md-center justify-content-start">
+    <a class="navbar-brand d-md-none d-inline" href="">Brand</a>
+	
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+	
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-md-center text-left">
+            <li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+            </li>
+			<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Labs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				<a class="dropdown-item" href="week-1.html">Photoshop Lab</a>
+				<a class="dropdown-item" href="week-2.html">Illustrator Drawing</a>
+				<a class="dropdown-item" href="week-3.html">Image Manipulation</a>
+				<a class="dropdown-item" href="week-4.html">Copywork</a>
+				<a class="dropdown-item" href="week-5.html">Presentation</a>
 			</div>
-			<br>
+			</li>
+		<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			<a class="dropdown-item" href="uidesign.html">Ui Design</a>
+			<a class="dropdown-item" href="video.html">Video</a>
+			<a class="dropdown-item" href="animation.html">Animation</a>
+		</div>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="assignment.html">Assignment</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="assessment.html">Assessment</a>
+		</li>
+	
+        </ul>
+        <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook mr-1"></i></a> </li>
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a> </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="center-container">
+<div class="text-center">
+				<h1 id="lesser-header">Welcome to Sione Manulea's portfolio for </h1>
+				<h1 id="lesser-header">Multimedia Development</h1>
+				<img id="lesser-header" src="labs/multimediapicture333.jpg" class="img-fluid" alt="responsive image">
+				<p>Welcome to my webpage!</p>
+			</div>
+				<p>This page was created using bootstrap and css.
+				The navbar is your every day navbar from the bootpage website <a href="https://getbootstrap.com/docs/4.3/components/navbar/">source</a>. And the rest of the website, I coded myself with the help of Google and previous website making experience</p>
+				<p>I dedicated to bootstrap because of its complete customizability factor, giving me ultimate control. Meaning, I can shape my website the way I want to and decide what things do what, and where things go where with the only limitation being my experience. It is also a get out what you put in language, meaning the more ideas you have, the better programmer you'll be by the end. Hopefully.</p>
+				<p>On this website, there are five main categories which are the basis for my Multimedia work</p>
+				<p>These categories are: lab designs, project designs, assignments, and assessments</p>
+				
+				
+				<br>
 			<div id="footer">
 				<p class="footer">This page was made by Sione Manulea</p>
 			</div>
-			<!-- End of page Content -->
-		</main>
-	</div>
+				
+			</div>
+			</div>
 	</body>
 </html>
