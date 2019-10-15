@@ -8,6 +8,13 @@ body {
 	margin-right: 30%;
 }
 
-#footer { 
-	text-align: center;
+footer {
+ bottom: 0;
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background-color: white;
+  text-align: center;
 }
