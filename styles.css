@@ -1,9 +1,13 @@
 body {
-	background-color: #2d2a26;
+	background-color: #F2EEE1 !important;
 }
 
 p {
-	font-family: Comic Sans MS;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a:hover {
+	color: red !important;
 }
 
 .nav-item {
@@ -15,6 +19,7 @@ p {
 	margin-left: 30%;
 	margin-right: 30%;
 	padding-bottom: 69px;
+	color: navy;
 }
 
 #wow {
@@ -34,7 +39,7 @@ footer {
   bottom: 0;
   width: 100%;
   color: black;
-  background-color: rgba(192,192,192,0.77);
+  background-color: rgba(57,55,51,0.22);
   text-align: center;
   opacity: 1.5;
 }
@@ -44,12 +49,12 @@ footer {
  }
 
  .navbar-default a {
-	font-family: Bradley Hand, cursive;
+	font-family: Verdana, Geneva, sans-serif;
 	color: navy !important;
  }
 
  .navbar-default a:hover {
-	 color: white !important;
+	 color: red !important;
  }
 
  .zoomin img {
